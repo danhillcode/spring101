@@ -24,4 +24,15 @@
 
     </build>
 
+
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+    <dependencies>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>5.1.3.RELEASE</version>
+    </dependency>
+    </dependencies>
+
 </project>
