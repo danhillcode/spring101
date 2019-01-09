@@ -9,7 +9,7 @@ import java.util.List;
 Stub used to create a customer and add the instance of customer
  */
 
-public class HibernateCustomerRepositoryImpl {
+public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
     public List<Customer> findAll() {
         List<Customer> customers = new ArrayList<>();
@@ -20,7 +20,7 @@ public class HibernateCustomerRepositoryImpl {
 
         customers.add(customer);
 
-        
+
         return customers;
     }
 
